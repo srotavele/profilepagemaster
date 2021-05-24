@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProfilePage</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar-profile">
+      <a href=" #" class="nav-title"> Profile</a>
+      <a href="#" class="nav-links"> Home </a>
+      <a href="#" class="nav-links"> My Profile </a>
+      <a href="#" class="nav-links"> Find Connections </a>
+      <button class="nav-link-btn"> Sign Out </button>
+    </div>
+    <!-- mainpage content -->
+    <div class="main">
+      <!-- left column content -->
+      <div class="left-col">
+        <!-- user card content -->
+        <div class="profile-card">
+          <div class="profile-header">
+            <img class="userimg" src="./images/user-circle.png" alt="user_img">
+          </div>
+          <p class="card-name">
+            Mark Rea
+          </p>
+          <div class="card-location">
+            <img class="map-marker" src="./images/map-marker.png" alt="map_img">
+            <p class="location-name">
+              Nowhere
+            </p>
+          </div>
+          <div class="card-description">
+            <p class="description-line">
+              Tympanic Masseur | Cat Herder | Lumberjack
+            </p>
+            <p class="description-line">
+              Coding Dojo Full Stack Alumni!
+            </p>
+          </div>
+          <div class="card-edit">
+            <img class="gear" src="./images/gear.png" alt="gear_img">
+            <a class="gear-link" href="edit profile">edit profile</a>
+          </div>
+        </div>
+        <!-- education box -->
+        <div class="profile-card">
+          <p class="card-header-text card-header">Education</p>
+          <h1 class="card-title">Coding Dojo - Full Stack Bootcamp</h1>
+          <p class="card-timespan">Dec 2019 - March 2020</p>
+          <p class="card-details">Triple blackbelt in Python, MERN and Ruby</p>
+          <p class="card-details">Completed several outside projects during coursework</p>
+        </div>
+      </div>
+      <!-- Connection Requests Box -->
+      <div class="right-col">
+        <div class="card-connections">
+          <div class="card-header">
+            <div class="card-header-text">
+              <p class="count-badge">2</p>
+              <p> Connection Requests </p>
+            </div>
+          </div>
+          <div class="connection">
+            <img class="connection-image" src="./images/todd-s.jpg" alt="toddimg">
+            <p class="connection-name"> Todd E.</p>
+            <div class="connection-actions">
+              <img class="connection-action-image" src="./images/accept-circle.png" alt="acceptbtn">
+              <img class="connection-action-image" src="./images/close-circle.png" alt="closebtn">
+            </div>
+          </div>
+          <div class="connection oddrow">
+            <img class="connection-image" src="./images/phil-s.jpg" alt="philimg">
+            <p class="connection-name"> Phil K.</p>
+            <div class="connection-actions">
+              <img class="connection-action-image" src="./images/accept-circle.png" alt="acceptbtn">
+              <img class="connection-action-image" src="./images/close-circle.png" alt="closebtn">
+            </div>
+          </div>
+        </div>
+        <!-- Your Connections Box -->
+        <div class="card-connections">
+          <div class="card-header">
+            <div class="card-header-text">
+              <p class="count-badge">500+</p>
+              <p>Your Connections</p>
+            </div>
+          </div>
+          <div class="connection">
+            <img class="connection-image" src="./images/adrien-s.jpg" alt="adrienimg">
+            <p class="connection-name">Adrien D.</p>
+          </div>
+          <div class="connection oddrow">
+            <img class="connection-image" src="./images/anne-s.jpg" alt="anneimg">
+            <p class="connection-name">Anne J. </p>
+          </div>
+          <div class="connection">
+            <img class="connection-image" src="./images/alayne-s.jpg" alt="alayneimg">
+            <p class="connection-name">Alayne T </p>
+          </div>
+          <div class="connection oddrow">
+            <img class="connection-image" src="./images/arry-s.jpg" alt="arryimg">
+            <p class="connection-name">Arry Y </p>
+          </div>
+          <div class="card-edit">
+            <a class="gear-link" href="edit profile">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
